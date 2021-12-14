@@ -12,7 +12,7 @@ def similarmovies(name):
         re_mov.append(movies.iloc[i[0]].title)
     return re_mov
 
-st.title("A Movie Recommandation System By Mridul Gupta")
+st.title("A Movie Recommandation System By Shriyash Rawat")
 st.header("Set Of Over 1k Movies")
 st.subheader("Based On Content Based Recommandation")
 option=st.selectbox("Type The Name Of The Movie ",movies['title'].values)
